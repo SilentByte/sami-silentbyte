@@ -1,0 +1,66 @@
+
+
+#site-nav.navbar-default {
+    background-color: #4A858F;
+    border-left: 0;
+    border-bottom: 1px solid #4A858F;
+}
+
+#site-nav.navbar-default .navbar-brand,
+#site-nav.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+}
+
+#site-nav.navbar-default .navbar-nav > li > a:hover {
+    text-decoration: none;
+    background: #41787F;
+}
+
+#left-column {
+    border-right: 2px solid #41787F;
+}
+
+#control-panel {
+    background: #4A858F;
+}
+
+.navbar-brand,
+.navbar-nav>li>a {
+    text-shadow: none;
+}
+
+.label-default {
+    background: #4A858F;
+}
+
+input[name='search'] {
+    border-radius: 0;
+}
+
+
+#api-tree {
+    background: linear-gradient(
+        to bottom,
+        #FFF,
+        #FFF 50%,
+        #FAFAFA 50%,
+        #FAFAFA
+    );
+    background-size: 100% 56px;
+    overflow: auto;
+    height: 100%;
+    background-attachment: local;
+}
+
+#api-tree li .hd:hover {
+    background-color: #E8F4F4;
+}
+
+#api-tree li.active > .hd {
+    background-color: #4A858F;
+}
+
+.text-primary {
+    color: #4A858F;
+}
+

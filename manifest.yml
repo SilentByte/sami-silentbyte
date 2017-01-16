@@ -1,0 +1,16 @@
+##
+## SilentByte Theme for Sami Documentations
+## ========================================
+## Copyright © 2017 by SilentByte <https://silentbyte.com/>
+##
+
+name:   sami-silentbyte
+parent: default
+
+static:
+    'favicon.ico': 'favicon.ico'
+    'css/silentbyte.css': 'css/silentbyte.css'
+
+global:
+    'layout/base.twig': 'layout/base.twig'
+
