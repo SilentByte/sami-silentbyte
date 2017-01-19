@@ -60,6 +60,14 @@ input[name='search'] {
     background-color: #4A858F;
 }
 
+.navbar-default .navbar-toggle {
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #4A858F;
+}
+
 .text-primary {
     color: #4A858F;
 }
