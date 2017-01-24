@@ -1,4 +1,22 @@
 
+/* SilentByte Sami Theme */
+
+a, a:hover {
+    color: #4A858F;
+}
+
+a:hover {
+    border-bottom: 1px solid #4A858F;
+    text-decoration: none;
+}
+
+#site-nav.navbar-default .navbar-nav > li > a:hover {
+    border-bottom: none;
+}
+
+input[name='search'] {
+    border-radius: 0;
+}
 
 #site-nav.navbar-default {
     background-color: #4A858F;
@@ -32,11 +50,6 @@
 .label-default {
     background: #4A858F;
 }
-
-input[name='search'] {
-    border-radius: 0;
-}
-
 
 #api-tree {
     background: linear-gradient(
@@ -72,3 +85,7 @@ input[name='search'] {
     color: #4A858F;
 }
 
+.syn-type, .syn-signature, .syn-method {
+    font-size: 1.25em;
+    font-family: Consolas, monospace;
+}

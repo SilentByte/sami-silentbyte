@@ -11,6 +11,3 @@ static:
     'favicon.ico': 'favicon.ico'
     'css/silentbyte.css': 'css/silentbyte.css'
 
-global:
-    'layout/base.twig': 'layout/base.twig'
-
